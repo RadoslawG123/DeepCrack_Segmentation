@@ -1,0 +1,5 @@
+,IoU C1 (pretrained),IoU C2 (scratch),Δ IoU [pp],Δ F1 [pp]
+architektura,Unnamed: 1_level_1,Unnamed: 2_level_1,Unnamed: 3_level_1,Unnamed: 4_level_1
+DeepLabV3Plus,0.709,0.669,-3.971,-2.784
+FPN,0.715,0.688,-2.693,-1.861
+UNet,0.723,0.726,0.284,0.191

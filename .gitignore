@@ -1,0 +1,18 @@
+# wagi modeli (za duże na GitHuba)
+*.pth
+*.pt
+
+# dane pobierane automatycznie
+data/
+DeepCrack/
+
+# pliki tymczasowe
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# timing runs (nie zapisują wyników, ale na wszelki wypadek)
+results/_timing_*/

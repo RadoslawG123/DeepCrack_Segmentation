@@ -1,0 +1,4 @@
+,arch,s/epoka (100 obr.),"s/epoka (240 obr., szac.)",min/trening (szac.)
+0,UNet,3.8,9.1,6.1
+1,DeepLabV3Plus,2.7,6.4,4.3
+2,FPN,3.7,8.8,5.9
