@@ -1,6 +1,6 @@
 # Segmentacja pęknięć betonu i asfaltu — DeepCrack
 
-Projekt z przedmiotu *Przetwarzanie i analiza cyfrowych danych przestrzennych i budowlanych metodami sztucznej inteligencji* (2026/2027).
+Projekt z przedmiotu *Przetwarzanie i analiza cyfrowych danych przestrzennych i budowlanych metodami sztucznej inteligencji*.
 
 **Autorzy:** Laura Wojtyla, Katarzyna Drożdż, Oliwia Grądzka, Natalia Kadłuczka, Radosław Górecki
 
