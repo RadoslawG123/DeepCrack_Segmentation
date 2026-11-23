@@ -124,8 +124,14 @@ Lokalnie: `pip install -r requirements.txt` (wymagane GPU z CUDA, `USE_DRIVE = F
     ├── dataset_samples.png         # przykładowe obrazy z maskami
     ├── learning_curves.png         # krzywe uczenia
     ├── test_iou_bar.png            # IoU na zbiorze testowym
+    ├── test_per_image_iou.csv      # IoU każdego obrazu testowego dla 6 modeli
     ├── per_image_iou_box.png       # rozkład IoU dla pojedynczych obrazów
-    └── pred_*.png                  # przykładowe predykcje
+    ├── pred_*.png                  # przykładowe predykcje
+    └── <model>__<konfiguracja>/    # 6 folderów, po jednym na trening
+        ├── history.csv             # loss, val IoU, val F1, lr i czas każdej epoki
+        └── meta.json               # konfiguracja, najlepsze val IoU, czas treningu, liczba parametrów
 ```
 
 Wagi modeli (`best.pth`, ok. 90 MB każdy) nie są przechowywane w repozytorium ze względu na limit rozmiaru plików GitHuba.
+
+Foldery `<model>__<konfiguracja>`: `UNet`, `DeepLabV3Plus`, `FPN` × `C1_pretrained` (enkoder pretrenowany na ImageNet), `C2_scratch` (enkoder trenowany od zera).

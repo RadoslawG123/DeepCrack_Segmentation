@@ -1,0 +1,17 @@
+{
+  "arch": "FPN",
+  "seed": 42,
+  "encoder": "resnet34",
+  "encoder_weights": "imagenet",
+  "epochs": 40,
+  "batch_size": 8,
+  "lr": 0.0003,
+  "weight_decay": 0.0001,
+  "augment": true,
+  "crop": 384,
+  "loss": "Dice + BCE",
+  "optimizer": "AdamW + CosineAnnealing",
+  "best_val_iou": 0.7710710110457129,
+  "train_time_min": 3.9700135389963784,
+  "params_M": 23.155393
+}

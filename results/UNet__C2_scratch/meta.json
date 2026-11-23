@@ -1,0 +1,17 @@
+{
+  "arch": "UNet",
+  "seed": 42,
+  "encoder": "resnet34",
+  "encoder_weights": null,
+  "epochs": 40,
+  "batch_size": 8,
+  "lr": 0.0003,
+  "weight_decay": 0.0001,
+  "augment": true,
+  "crop": 384,
+  "loss": "Dice + BCE",
+  "optimizer": "AdamW + CosineAnnealing",
+  "best_val_iou": 0.7562575837025421,
+  "train_time_min": 4.633966016769409,
+  "params_M": 24.436369
+}
